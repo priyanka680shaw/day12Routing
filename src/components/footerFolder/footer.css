@@ -1,0 +1,85 @@
+.footerContainer{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #8696b7;
+    color: white;
+}
+
+.innerFooterContainer{
+    width: 40%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.logocontainer{
+   
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo>figure{   
+    width: 150px;
+    /* border: 2px solid rgb(23, 20, 20); */
+    border-radius: 50%;
+}
+
+.logo>figure>img{
+    width: 150px;
+    background-size: cover;
+    
+}
+
+.footerText{
+    width: 500px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin: 5px auto;
+    line-height: 1.5;
+    /* border-radius: 10px;
+    background-color: #F9FAFB;
+    box-shadow: 2px 2px 7px 1px #b0b3b5; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBar >ul>li , a{
+    text-decoration: none;
+    list-style: none;
+    color: #09090a;
+    font-size: 1.1rem;
+    padding: 0px 13px;
+}
+
+.footerIcons>ul>li , a{
+    text-decoration: none;
+    list-style: none;
+    color: #09090a;
+    font-size: 1.1rem;
+    padding: 0px 5px;
+    font-size: 20px;
+    color: white;
+}
